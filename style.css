@@ -1,7 +1,91 @@
 #menu
 {
 	position: fixed;
-	width: 100%;
+	width: 90%;
 	height: 35px;
-	background: white;
+	background: transparent;
+	border-radius: 50px;
+	margin: auto;
+	padding: auto;
+	justify-content: space-evenly;
+	text-align: center;
+	box-sizing: border-box;
+	align-items: center;
+	display: flex;
+	list-style: none;
+	
+
+	
 }
+li a:hover {
+	color:aquamarine;
+
+}
+
+a button{
+	font-family: 'Calibri', Calibri;
+	font-size: 20px;
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	
+}
+
+div
+{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: auto;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    font-family: 'Calibri', Calibri;
+	font-weight: bold;
+
+}
+.about,.My_photos,.Like,.QR_Code,.QA,.Contact_Me,.My_playlist
+{
+    background-color: rgb(148, 197, 187);
+    background-image: url("leafs3.jpg"); 
+    height: 50px;
+    width: 100%;
+	
+    
+    
+}
+body{
+    background-color: rgb(169, 205, 194);
+	/* 169 205 194 */
+}
+.logo{
+	position: left;
+	cursor: pointer;
+	height: 50px;
+
+}
+button{
+    padding: 8px 10px;
+    background-color: rgb(68, 120, 111);
+	/* 68 120 111 */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: flex;
+}
+button:hover{
+    background-color: rgb(158, 231, 222);
+
+}
+/* #about{
+	background-color: lavender;
+    background-image: url("purple.jpg");
+    height: 50px;
+    width: 100%;
+}
+h1{
+	font-family: 'Calibri', Calibri;
+	font-size: 30px;
+	align-items: center;
+	text-align: center;
+} */
