@@ -2,12 +2,13 @@
 <html>
 <head>
   <title>  About Tatiana Shkutina </title>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
   
   <div id="menu">
-    <img class="logo" src="logo-ts.png" alt="logo" width=70 height=70 >
+    <img class="logo" src="logo-ts.png" alt="logo" width=80 height=80 >
 
 
     <a href="#about"><button>About me</button> </a>
@@ -18,14 +19,6 @@
     <a href="#QA"><button>Q&A</button></a></li>
     <a href="#Contact_Me"><button>Contact Me</button></a>
 
-    
-    <!-- <li><a href="#about">About me </a></li>
-    <li><a href="#My_photos">My photos</a></li>
-    <li><a href="#My_playlist">My playlist</a></li>
-    <li><a href="#Like">Like</a></li>
-    <li><a href="#QR_Code">QR Code</a></li>
-    <li><a href="#QA">Q&A</a></li>
-    <li><a href="#Contact_Me">Contact Me</a></li> -->
 
   </div>
 		  
@@ -41,102 +34,104 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
   <a name="about"></a>
   <div class="about">About me</div>
-  <p><center><span style="color:black; font-size: 18px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> טקסט</span> </center></p>
-    <!-- About me -->
-<br/>
-<br/>
-<br/>
+  <h1>
+    <p id="abouttext"> I am Tatyana Shkutina, I was born in the city of Khabarovsk in Russia on January 29, 1952 and I still live there today.
+      I met my husband Dimitri Shkutin when we were children and we have been inseparable ever since!
+      We had 2 children, Marina and Jenia, and we really liked going on trips as a whole family together.
+      Marina immigrated to Israel in 2000 and since then I have visited Israel 3 times, I love the country very much
+      and especially the city of Jerusalem.
+      I have many hobbies, I like to sew, knit, make funny dolls and give them to people I love.
+      In addition, in the summer I like to go to my dacha (summer house) to plant, take care of plants and enjoy nature.</p>
+    
+      <!-- About me -->
+  </h1>
+
 </section>
 
 <section id="My_photos" class="section">
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <br/>
 <!-- my photos -->
   <a name="My_photos"></a>
   <div class="My_photos">My photos</div>
 <br/>
 <br/>
-<br/>
+
+<swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+        slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+        <swiper-slide>
+          <img src="ani_savta.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="ima_savta.jpeg"/>
+        </swiper-slide>
+        <swiper-slide>
+          <img src="tema.jpeg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="kulam1.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="mishpaha.jpg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="hatuna.jpeg" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="zeira.jpeg" />
+        </swiper-slide>
+        
+      </swiper-container>
+    
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+
 </section>
 
 <section id="My_playlist" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+
 <br/>
 <!-- my playlist -->
 <a name="My_playlist"></a>
 <div class="My_playlist">My playlist</div>
-<br/>
-<br/>
-<br/>
+<p id="playlist">
+  <h3><iframe width="600" height="350" src="https://www.youtube.com/embed/4H9la40jkjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe></h3>
+  <h5>Elvis Presley - Can't Help Falling In Love</h5>
+  <h4><audio src="Elvis Presley - Can't Help Falling In Love (Official Audio).mp3" controls="controls">Your browser does not support the audio element.</audio></h4>
+  <h7>Elvis Presley - Suspicious Minds</h7>
+  <h6><audio src="Elvis Presley - Suspicious Minds (Lyrics).mp3" controls="controls">Your browser does not support the audio element.</h6>
+</p>
 </section>
 
 <section id="Like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <br/>
 <br/>
 <br/>
 <!-- give me a like -->
   <a name="Like"></a>
   <div class="Like">Give me like</div>
+  <div id="liked">
+    <img src="likets.png" width="90" height="90" />
+    <p><span style="color:rgb(39, 98, 72); font-size: 25px; font-family:sans-serif;">Click on the like button</span></p>
+    <iframe id="likeme" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2023.github.io%2F323225409%2F&width=450&layout&action&size&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  </div>
 <br/>
 <br/>
 <br/>
 </section>
 
 <section id="QR_Code" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <br/>
 <br/>
 <br/>
@@ -150,6 +145,7 @@
 <!-- scan my code -->
   <a name="QR_Code"></a>
   <div class="QR_Code">QR code</div>
+  <div id="scan"> <img src="Tatiana shkutina.png" width="500" height="490" /></div>
 <br/>
 <br/>
 <br/>
