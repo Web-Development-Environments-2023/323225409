@@ -13,12 +13,13 @@
 	align-items: center;
 	display: flex;
 	list-style: none;
-	white-space:nowrap;
+	
 	
 	
 
 	
 }
+
 li a:hover {
 	color:aquamarine;
 
@@ -40,6 +41,7 @@ div
 {
     text-align: center;
     font-size: 30px;
+	width: 100%;
     color: black;
     padding: auto;
     align-items: center;
@@ -55,20 +57,19 @@ div
     background-image: url("leafs3.jpg"); 
     height: 50px;
     width: 100%;
-	
-    
-    
+	   
 }
-#playlist
+/*#playlist
 {
 	width:100%;
 	height:50px;
 	white-space:nowrap;
+	
 }
 h3{
 	padding:40px;
 	height: 50px;
-	width: 80%;
+	width: 100%;
 	padding-left: 10%;
 
 
@@ -79,7 +80,7 @@ h4{
 	
 	position: relative;
     top: -140px;
-	width: 80%;
+	width: 100%;
 	
 }
 h5{
@@ -89,14 +90,14 @@ h5{
 	font-weight: bold;
 	position: relative;
     top: -140px;
-	width: 80%;
+	width: 100%;
 
 }
 h6{
 	padding-left: 70%;
 	position: relative;
     top: -80px;
-	width: 80%;
+	width: 100%;
 	
 }
 h7
@@ -107,8 +108,8 @@ h7
 	font-weight: bold;
 	position: relative;
     top: -80px;
-	width: 80%;
-}
+	width: 100%;
+} */
 #likeme{
 	
 	display: block;
@@ -176,9 +177,9 @@ h8{
 	text-decoration-line: underline;
 }
 body{
-    /* background-color: rgb(169, 205, 194); */
+   
 	background-color: rgb(240, 255, 240);
-	/* 169 205 194 */
+	
 }
 .logo{
 	position: left;
@@ -189,7 +190,7 @@ body{
 button{
     padding: 8px 10px;
     background-color: rgb(68, 120, 111);
-	/* 68 120 111 */
+	
     border: none;
     border-radius: 50px;
     cursor: pointer;
