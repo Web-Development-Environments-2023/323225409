@@ -13,16 +13,10 @@
 	align-items: center;
 	display: flex;
 	list-style: none;
-	
-	
-	
-
-	
+		
 }
-
 li a:hover {
 	color:aquamarine;
-
 }
 p{
 	text-align: center;
@@ -33,8 +27,7 @@ a button{
 	font-size: 20px;
 	text-decoration: none;
 	color:black;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 div
@@ -49,81 +42,21 @@ div
     width: 100%;
     font-family: 'Calibri', Calibri;
 	font-weight: bold;
-
 }
 .about,.My_photos,.Like,.QR_Code,.QA,.Contact_Me,.My_playlist
 {
     background-color: rgb(148, 197, 187);
     background-image: url("leafs3.jpg"); 
     height: 50px;
-    width: 100%;
-	   
+    width: 100%;	   
 }
-/*#playlist
-{
-	width:100%;
-	height:50px;
-	white-space:nowrap;
-	
-}
-h3{
-	padding:40px;
-	height: 50px;
-	width: 100%;
-	padding-left: 10%;
 
-
-
-}
-h4{
-	padding-left: 70%;
-	
-	position: relative;
-    top: -140px;
-	width: 100%;
-	
-}
-h5{
-	padding-left: 70%;
-	font-family: 'Calibri', Calibri;
-	font-size: 18px;
-	font-weight: bold;
-	position: relative;
-    top: -140px;
-	width: 100%;
-
-}
-h6{
-	padding-left: 70%;
-	position: relative;
-    top: -80px;
-	width: 100%;
-	
-}
-h7
-{
-	padding-left: 71%;
-	font-family: 'Calibri', Calibri;
-	font-size: 18px;
-	font-weight: bold;
-	position: relative;
-    top: -80px;
-	width: 100%;
-} */
-#likeme{
-	
+#likeme{	
 	display: block;
 	width: 57%;
 	padding-top: -15%;
-	position: relative;
-	
-	
+	position: relative;	
 }
-h8{
-	font-size: 20px;
-}
-
-
 
 #liked{
 	width:100%;
@@ -134,7 +67,6 @@ h8{
 	font-size:x-large;
 	font-family: 'Calibri', Calibri;
 	font-weight: bold;
-
 }
 
 #namec,#emailc,#messagec,#sendc{
@@ -149,25 +81,25 @@ swiper-container {
     width: 40%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-  swiper-slide {
+swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
-  }
+}
 
-  swiper-slide img {
+swiper-slide img {
     display: block;
     width: 100%;
-  }
-#abouttext{
-	
+}
+
+
+#abouttext{	
 	text-align: center;
 	font-family: 'Calibri', Calibri;
-	padding: 5%  ;
-	
+	padding: 5%  ;	
 }
 h8{
 	font-family: 'Calibri', Calibri;
@@ -176,21 +108,17 @@ h8{
 	font-weight: bold;
 	text-decoration-line: underline;
 }
-body{
-   
-	background-color: rgb(240, 255, 240);
-	
+body{  
+	background-color: rgb(240, 255, 240);	
 }
 .logo{
 	position: left;
 	cursor: pointer;
 	height: 50px;
-
 }
 button{
     padding: 8px 10px;
-    background-color: rgb(68, 120, 111);
-	
+    background-color: rgb(68, 120, 111);	
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -198,5 +126,4 @@ button{
 }
 button:hover{
     background-color: rgb(158, 231, 222);
-
 }

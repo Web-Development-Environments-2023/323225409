@@ -5,7 +5,12 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css" />
+  <script
+  src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+  <script src="emojionearea.js"></script>
+  <link rel="stylesheet" type="text/css" href="emojionearea.css" />
 </head>
 <body>
   
@@ -34,20 +39,12 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
   <a name="about"></a>
   <div class="about">About me</div>
   <h1>
-    <p id="abouttext"> I am Tatyana Shkutina, I was born in the city of Khabarovsk in Russia on January 29, 1952 and I still live there today.
-      I met my husband Dimitri Shkutin when we were children and we have been inseparable ever since!
-      We have 2 children, Marina and Jenia, and we really liked going on trips as a whole family together.
-      Marina immigrated to Israel in 2000 and since then I have visited Israel 3 times, I love the country very much
-      and especially the city of Jerusalem.
-      I have many hobbies, I like to sew, knit, make funny dolls and give them to people I love.
-      In addition, in the summer I like to go to my dacha (summer house) to plant, take care of plants and enjoy nature.</p>
+    <p id="abouttext"> I am Tatyana Shkutina, I was born in the city of Khabarovsk in Russia on January 29, 1952 and I still live there today. I met my husband Dimitri Shkutin when we were children and we have been inseparable ever since! We have 2 kids, Marina and Jenia, and we really liked going on trips as a whole family together. In 2000, Marina immigrated to Israel, and I've been there 3 times since then. I love Israel and Jerusalem in particular. In my free time, I like to sew, knit, and make funny dolls for the people I love. In the summer, I like to plant, take care of plants and enjoy the outdoors at my dacha (summer house).</p>
     
-      <!-- About me -->
+
   </h1>
 
 </section>
@@ -58,7 +55,7 @@
 <br/>
 
 <br/>
-<!-- my photos -->
+
   <a name="My_photos"></a>
   <div class="My_photos">My photos</div>
 <br/>
@@ -66,27 +63,34 @@
 
 <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
         slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
-        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+        coverflow-effect-modifier="1" coverflow-effect-slide-shadows="false">
         <swiper-slide>
-          <img src="ani_savta.jpg" />
+          <img src="ani_savta.jpg" alt="Me and my granddaughter" />
+          <p><span style="font-size: 20px;font-family: calibri;color:rgb(39, 98, 72) ">Me and my granddaughter</span></p>
         </swiper-slide>
         <swiper-slide>
-          <img src="ima_savta.jpeg"/>
+          <img src="ima_savta.jpeg" alt="Me and my daughter" width="50" height="290"/>
+          <p><span style="font-size: 20px;font-family: calibri;color:rgb(39, 98, 72) ">Me and my daughter</span></p>
         </swiper-slide>
         <swiper-slide>
-          <img src="tema.jpeg" />
+          <img src="tema.jpeg" alt="Me and my grandson" width="40" height="290"/>
+          <p><span style="font-size: 20px;font-family: calibri;color:rgb(39, 98, 72) ">Me and my grandson</span></p>
         </swiper-slide>
         <swiper-slide>
-          <img src="kulam1.jpg" />
+          <img src="kulam1.jpg" alt="My family"  />
+          <p><span style="font-size: 20px;font-family: calibri;color:rgb(39, 98, 72) ">My family</span></p>
         </swiper-slide>
         <swiper-slide>
-          <img src="mishpaha.jpg" />
+          <img src="mishpaha.jpg" alt="My family, 1981"  />
+          <p><span style="font-size: 20px;font-family: calibri;color:rgb(39, 98, 72) ">My family, 1981</span></p>
         </swiper-slide>
         <swiper-slide>
-          <img src="hatuna.jpeg" />
+          <img src="hatuna.jpeg" alt="My wedding, 1976" width="40" height="290" />
+          <p><span style="font-size: 20px;font-family: calibri;color:rgb(39, 98, 72) ">My wedding, 1976</span></p>
         </swiper-slide>
         <swiper-slide>
-          <img src="zeira.jpeg" />
+          <img src="zeira.jpeg" alt="Me, 1974" width="40" height="293" />
+          <p><span style="font-size: 20px;font-family: calibri;color:rgb(39, 98, 72) ">Me, 1974</span></p>
         </swiper-slide>
         
       </swiper-container>
@@ -102,7 +106,7 @@
 
 
 <br/>
-<!-- my playlist -->
+
 <a name="My_playlist"></a>
 <div class="My_playlist">My playlist</div>
 <p id="playlist">
@@ -126,10 +130,11 @@
 <br/>
 <br/>
 <br/>
-<!-- give me a like -->
+
   <a name="Like"></a>
   <div class="Like">Give me like</div>
   <div id="liked">
+    <br>
     <img src="likets.png" width="90" height="90" />
     <p><span style="color:rgb(39, 98, 72); font-size: 25px; font-family:sans-serif;">Click on the like button</span></p>
     <iframe id="likeme" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb-development-environments-2023.github.io%2F323225409%2F&width=450&layout&action&size&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
@@ -151,7 +156,7 @@
 <br/>
 <br/>
 <br/>
-<!-- scan my code -->
+
   <a name="QR_Code"></a>
   <div class="QR_Code">QR code</div>
   <div id="scan"> <img src="qr3.jpeg" width="450" height="400" /></div>
@@ -175,7 +180,7 @@
 <br/>
 <br/>
 <br/>
-<!-- ans -->
+
   <a name="QA"></a>
   <div class="QA">Q&A </div>
 <br/>
@@ -222,7 +227,7 @@
 
 <br/>
 <br/>
-<!-- contact me -->
+
   <a name="Contact_Me"></a>
   <div class="Contact_Me">Contact Me </div>
   <p id="send"> Send a message <span>&#x1F609</span> </p>
@@ -238,13 +243,14 @@
   </p>
   <p id="messagec">
     <strong> Message:</strong>
-    <textarea id="message" name="message" ></textarea>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+    <textarea id="message" name="message" style="display: none;" ></textarea>
     
+   
     <script>
-      $('#message').emojioneArea({
-        pickerPosition:"buttom"
+      $(document).ready(function(){
+        $("#message").emojioneArea({
+          pickerPosition:"buttom"
+        });
       })
     </script>
   </p>
