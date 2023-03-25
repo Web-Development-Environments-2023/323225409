@@ -15,6 +15,9 @@
 	list-style: none;
 		
 }
+
+
+
 li a:hover {
 	color:aquamarine;
 }
@@ -26,7 +29,7 @@ a button{
 	font-family: 'Calibri', Calibri;
 	font-size: 20px;
 	text-decoration: none;
-	color:black;
+	color:white;
 	font-weight: bold;	
 }
 
@@ -56,6 +59,7 @@ div
 	width: 57%;
 	padding-top: -15%;
 	position: relative;	
+	
 }
 
 #liked{
@@ -64,13 +68,13 @@ div
 	
 }
 #send{
-	font-size:x-large;
+	font-size:30px;
 	font-family: 'Calibri', Calibri;
 	font-weight: bold;
 }
 
 #namec,#emailc,#messagec,#sendc{
-	font-size:x-large;
+	font-size:25px;
 	font-family: 'Calibri', Calibri;
 }
 #sendc{
@@ -129,3 +133,31 @@ button{
 button:hover{
     background-color: rgb(158, 231, 222);
 }
+
+[type="submit"] {
+	font-family: 'Calibri', Calibri;
+	width: 20%;
+	background:rgb(68, 120, 111);
+	border-radius:5px;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+  }
+  [type="submit"]:hover { background:rgb(158, 231, 222);}
+  [type="text"]{
+	width: 20%;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	
+
+  }
+
+
